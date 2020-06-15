@@ -14,7 +14,8 @@ def run():
         dan = (var1 * var2)
         print(dan)
 run()
-if input() == "n":
+finish = input("Press n to finish")
+if finish == "n":
     quit()
 else:
     run()
